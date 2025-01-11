@@ -1,5 +1,5 @@
 # Minecraft Custom Start Screen Project  
-### *"There’s not much... but there’s enough to blow your mind!"*  
+*"There's the download link pheww...."*  
 
 ---
 
