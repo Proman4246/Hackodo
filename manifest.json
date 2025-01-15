@@ -1,0 +1,33 @@
+/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+{
+  "format_version": 2,
+  "header": {
+    "description" : "§eHacodo! §r",
+    "name": "§lCustom UI §r",
+    "uuid": "255eb3ad-e13a-43b1-8f8b-2ed137e7c93e",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 16, 0]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "bb3119a8-759c-9615-941b-5f9c400eb6c5",
+      "version": [0, 0, 1]
+    }
+  ]
+}
