@@ -1,0 +1,261 @@
+﻿/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+{
+  "namespace": "start",
+
+  // SCREEN SETTINGS
+  "start_screen@common.base_screen": {
+    "$screen_bg_content": "BG0608.UI2",
+    "$screen_animations": [
+      "@common.screen_exit_animation_push_fade",
+      "@common.screen_exit_animation_pop_fade",
+      "@common.screen_entrance_animation_push_fade",
+      "@common.screen_entrance_animation_pop_fade"
+    ]
+  },
+
+  // BACKGROUNDS
+  "bg1": {
+    "type": "image",
+    "texture": "textures/ui/Jo/dark",
+    "fill": true,
+    "layer": 100,
+    "alpha": "@animations.background1_wait_1"
+  },
+  "bg2": {
+    "type": "image",
+    "texture": "textures/ui/Jo/background",
+    "fill": true,
+    "layer": 101,
+    "alpha": "@animations.background1_wait_1",
+    "uv": "@animations.background2_alpha_1"
+  },
+
+  // LOADING ANIMATION
+  "loading": {
+    "type": "image",
+    "layer": 104,
+    "texture": "textures/ui/Jo/loading_spin",
+    "offset": [0, 145],
+    "uv_size": [7, 7],
+    "size": [14, 14],
+    "alpha": "@animations.text_alpha_1",
+    "uv": "@progress.spinner_animation"
+  },
+
+  // LABELS AND TEXT
+  "wl": {
+    "type": "label",
+    "font_type": "MinecraftTen",
+    "color": "$main_header_text_color",
+    "layer": 106,
+    "shadow": true,
+    "offset": [0, 23],
+    "text": "Minecraft",
+    "font_scale_factor": 4.3,
+    "alpha": "@animations.logo_alpha_1",
+    "controls": [
+      {
+        "undertext": {
+          "type": "label",
+          "font_type": "MinecraftTen",
+          "color": "$main_header_text_color",
+          "layer": 107,
+          "shadow": true,
+          "offset": [0, 40],
+          "text": "§eWelcome!",
+          "font_scale_factor": 2.7,
+          "alpha": "@animations.text_alpha_1"
+        }
+      }
+    ]
+  },
+
+  // COPYRIGHT AND VERSION INFO
+  "copyright": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 2,
+    "text": "menu.copyright",
+    "size": ["default", 10],
+    "max_size": ["100%", "100%"],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "alpha": "@animations.text_fade_out_wait_1",
+    "offset": [0, 3],
+    "font_size": "small",
+    "shadow": true,
+    "font_scale_factor": 1.4
+  },
+  "version": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 2,
+    "text": "#version",
+    "size": ["default", 10],
+    "max_size": ["100%", "100%"],
+    "anchor_from": "top_right",
+    "anchor_to": "top_right",
+    "offset": [0, 3],
+    "font_size": "small",
+    "shadow": true,
+    "font_scale_factor": 1.4,
+    "alpha": "@animations.text_fade_out_wait_1",
+    "bindings": [
+      {
+        "binding_name": "#version"
+      }
+    ]
+  },
+
+  // CUSTOM TEXT ELEMENTS
+  "anim1": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 150,
+    "text": "Main V12",
+    "size": ["default", 10],
+    "max_size": ["100%", "100%"],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "alpha": "@animations.background1_wait_1",
+    "offset": [0, 3],
+    "font_size": "small",
+    "shadow": true,
+    "font_scale_factor": 1.4
+  },
+  "text1": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 150,
+    "text": "HackClub Highseas Project",
+    "size": ["default", 10],
+    "max_size": ["100%", "100%"],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "alpha": "@animations.background1_wait_1",
+    "offset": [0, 0],
+    "font_size": "small",
+    "shadow": true,
+    "font_scale_factor": 1.4
+  },
+    "text2": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 149,
+    "text": "HackClub Highseas Project",
+    "offset": [ 0, 0 ],
+    "size": [ "default", 10 ],
+    "max_size": [ "100%", "100%" ],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "alpha": "@animations.text_fade_out_wait_1",
+    "font_size": "small",
+    "shadow": true,
+    "font_scale_factor": 1.4
+  },
+  "Atext": {
+    "type": "label",
+    "color": "$main_header_text_color",
+    "layer": 2,
+    "text": "Follow on Instagram: @thagreatjoel",
+    "offset": [0, -7 ],
+    "size": ["default", 25],
+    "max_size": ["100%", "100%"],
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "alpha": "@animations.dtext_wait_1",
+    "font_size": "small",
+    "shadow": true,
+    "font_scale_factor": 1.4
+  },
+
+  // CUSTOM PANELS
+  "start_screen_message_center_panel": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      { "background1@start.bg1": {} },
+      { "background2@start.bg2": {} },
+      { "loading_spin@start.loading": {} },
+      { "logo@start.logo": {} },
+      { "welcome@start.wl": {} }
+    ]
+  },
+
+  // REGISTER PANELS
+  "start_screen_content": {
+    "type": "panel",
+    "$achievements_ignored|default": false,
+    "$feedback_ignored|default": false,
+    "$store_ignored|default": false,
+    "$is_toolbox_ignored|default": false,
+    "variables": [
+      { "requires": "$education_edition", "$achievements_ignored": true, "$store_ignored|default": true },
+      { "requires": "$gear_vr", "$feedback_ignored": true },
+      { "requires": "$fire_tv", "$feedback_ignored": true },
+      { "requires": "$nx_os", "$feedback_ignored": true },
+      { "requires": "(not $supports_xbl_achievements)", "$achievements_ignored": true, "$feedback_ignored": true },
+      { "requires": "$trial", "$achievements_ignored": true },
+      { "requires": "(not $is_desktop or $is_publish)", "$is_toolbox_ignored": true }
+    ],
+    "bindings": [
+      {
+        "binding_name": "(not #screen_needs_rebuild)",
+        "binding_name_override": "#visible"
+      }
+    ],
+    "controls": [
+      { "skin_panel@start.skin_panel": { "layer": 1 } },
+      { "main_buttons_and_title_panel@start.main_buttons_stack_panel": {} },
+      { "upper_online_buttons_panel@start.upper_online_buttons_panel": {} },
+      { "lower_online_buttons_panel@start.lower_online_buttons_panel": {} },
+      { "start_screen_message_center_panel@start.start_screen_message_center_panel": {} },
+      { "text_panel_mojang@start.text_panel_mojang": {} },
+      {
+        "popup_dialog_factory": {
+          "type": "factory",
+          "control_ids": {
+            "cloud_upload_prompt": "@start.cloud_upload_prompt"
+          }
+        }
+      }
+    ]
+  },
+
+  // NON-EDITABLE ELEMENTS
+  "text_panel_mojang": {
+    "type": "panel",
+    "size": ["100%-2px", 10],
+    "offset": [0, -1],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+    "controls": [
+      { "copyright@start.copyright": {} },
+      { "jotxt1@start.text1": {} },
+      { "jotxt2@start.text2": {} },
+      { "Atext@start.Atext": {} },
+      { "joel_pack_version1@start.anim1": {} },
+      {
+        "development_version@start.development_version": {
+          "ignored": "$is_publish"
+        }
+      },
+      { "version@start.version": {} }
+    ]
+  }
+}
