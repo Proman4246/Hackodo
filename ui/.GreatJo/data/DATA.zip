@@ -1,0 +1,32 @@
+/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/{
+  "namespace": "BG0608",
+   "UI2": {
+   "type": "image",
+   "anchor_from": "center",
+   "anchor_to": "center",
+   "size": [ "100%", "100%" ],
+   "uv": "",
+     "controls": [
+      {
+        "MENU_BG@BGCOMP.UI1": {
+       }
+     }
+   ]
+ }
+
+
+

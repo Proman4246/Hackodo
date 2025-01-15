@@ -1,0 +1,94 @@
+/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "namespace": "BGCOMP",/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+  "UI1": {
+    "type": "image",/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+    "fill": true,
+    "texture": "textures/ui/Jo/bg",/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+    "uv_size": [ "100%c", "100%" ]
+  }/* 
+===========================================
+  COPYRIGHT © 2025 ThaGreatJoel
+  All Rights Reserved.
+
+  This project is proprietary and cannot 
+  be re-edited, redistributed, or published 
+  without explicit permission from the author. 
+
+  If you wish to re-edit publish this project, please 
+  contact us at: [Instagram: @thagreatjoel].
+
+  Unauthorized use is strictly prohibited.
+===========================================
+*/
+}
